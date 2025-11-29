@@ -15,4 +15,7 @@ UrbanPulse is a preventative city planning tool that allows government officials
 
 ## How to run the app
 Run the Streamlit Dashboard:
+
 streamlit run app.py
+
+*"Source code attached. For a quick demo, you can view the live version here: [https://urbanpulse-xihackathon-lr2jpbmsdrgqtbh54vtra8.streamlit.app/]"*
