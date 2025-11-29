@@ -4,7 +4,6 @@ import pandas as pd
 import numpy as np
 import pickle
 import time
-import ollama
 import os
 from groq import Groq
 
@@ -275,3 +274,4 @@ with col_main:
                 st.dataframe(df_fin, hide_index=True, use_container_width=True)
             else:
                 st.warning("Project ROI is negative/neutral.")
+
