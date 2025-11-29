@@ -19,7 +19,7 @@ st.set_page_config(
 st.markdown("""
 <style>
     /* MAIN THEME */
-    .stApp { background-color: #0E1117; font-family: 'Segoe UI', Roboto, sans-serif; }
+    .stApp { background-color: #FFDFA; font-family: 'Segoe UI', Roboto, sans-serif; }
     
     /* SIDEBAR */
     section[data-testid="stSidebar"] { background-color: #161B22; border-right: 1px solid #30363D; }
@@ -167,7 +167,7 @@ ai_brain = SeaLionBrain()
 if 'active_tool' not in st.session_state: st.session_state.active_tool = "None"
 
 # HEADER WITH W.A.R.D BANNER
-if os.path.exists("banner.jpg"):
+if os.path.exists("banner.jpeg"):
     st.image("banner.jpeg", use_container_width=True)
 else:
     # Fallback header if image missing
@@ -274,4 +274,5 @@ with col_main:
                 st.dataframe(df_fin, hide_index=True, use_container_width=True)
             else:
                 st.warning("Project ROI is negative/neutral.")
+
 
